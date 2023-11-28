@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Caudex', serif;
+  font-family: 'Croissant One', serif;
+  font-family: 'DM Mono', monospace;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body.index_body {
+  min-height: 100vh;
+  background-size: 100%;
+  background: url(../image/background.jpg) center/cover;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  background: url(../image/adminbackground.jpg) center/cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img.logo {
+  width: 500px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-left: 60px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: rgb(42, 41, 41);
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background: rgba(159, 227, 204, 0.497);
+}
+
+h1 {
+  text-align: left;
+  margin-top: 2em;
+  color: #3c3836bd;
+  padding-left: 80px;
+}
+
+h3 {
+  color: rgb(41, 40, 40)
+}
+
+div.comment>h1 {
+  color: #3c3836bd;
+  padding-left: 150px;
+  font-size: 60px;
+  padding-top: 20%;
+}
+
+div.comment2>h1 {
+  color: #3c3836bd;
+  padding-left: 80px;
+  padding-top: 20%;
+  font-size: 60px;
+}
+
+form {
+  background-color: #fff5;
+  backdrop-filter: blur(9px);
+  box-shadow: 0.4rem .8rem #0005;
+  border-radius: .8rem;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-bottom: 15%;
+  width: 40%;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.info {
+  padding: 15px 20px;
+  margin: 0;
+}
+
+input.file {
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px;
+  width: 100%;
+  border: 2px solid #99999900;
+  outline: none;
+}
+
+.footer-basic {
+  width: 100%;
+  bottom: 0;
+  color: #ffff;
+  /* background-color: white; */
+}
+
+.footer-basic ul {
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+  display: block;
+  padding: 0px;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #ffff;
+  margin-bottom: 0;
+}
+
+ul.menubar>a.move {
+  left: 50%;
+}
+
+tbody {
+  font-size: 20px;
+  letter-spacing: 1.0px;
+}
+
+.comfirmation {
+  margin-top: 1em;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+table {
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: 200;
+  width: 80%;
+}
+
+table.display {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(231, 227, 227, 0.815);
+}
+
+main.form {
+  width: 350px;
+  box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 8%;
+  text-align: center;
+}
+
+input {
+  border-radius: 20px;
+  padding: 8px;
+  width: 100%;
+  border: 2px solid #9999995e;
+  outline: none;
+}
+
+button {
+  width: 50%;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 1px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: darkgray;
+  color: #fff;
+}
+
+button.signin {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button.admin {
+  width: 50%;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 20px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: darkgray;
+  color: #fff;
+}
+
+h4 {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #fff;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.myForm {
+  display: flex;
+}
+
+body.admin {
+  min-height: 100vh;
+  background-size: 100%;
+  background: url(../image/adminbackground.jpg) center/cover;
+  justify-content: center;
+  align-items: center;
+}
+
+section.person-row {
+  box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
+  background: #fff;
+  padding: 10px;
+  margin: 3% 9%;
+  text-align: center;
+  background-color: #fff5;
+  backdrop-filter: blur(5px);
+}
+
+section.person-row2 {
+  box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
+  background: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 3% 9%;
+  text-align: center;
+  background-color: #fff5;
+  backdrop-filter: blur(5px);
+}
+
+form.admin {
+  background-color: #fff5;
+  backdrop-filter: blur(9px);
+  box-shadow: 0.4rem .8rem #0005;
+  border-radius: .8rem;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 40%;
+  margin-bottom: 13%;
+  width: 20%;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+label {
+  color: #fff;
+}
+
+ul.contact {
+  background: rgb(9, 10, 10);
+  color: #fff;
+}
+
+p {
+  padding: 15px;
+
+}
+
+img.contact {
+  width: 30px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+td img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: 5px solid #E6E7E8;
+}
+
+div.container {
+  font-weight:bolder;
+  font-size: 20px;
+}
+
+a.viewpoint, a.viewpoint2{
+  text-decoration: none;
+}
+
+button.viewpoint{
+  width: 70px;
+  background: rgba(127, 255, 212, 0.699);
+}
+
+button.viewpoint2{
+  width: 70px;
+  background: rgba(238, 151, 165, 0.619);
+  margin: 5px;
+}
