@@ -32,8 +32,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $lname = $row["lname"];
     $phone = $row["phone"];
     $email = $row["email"];
-    // $role = $row["role"];
-    // $image = $row["image"];
+    $role = $row["role"];
+    $image = $row["image"];
   } else {
     // Redirect if no rows are returned
     header("location: index.php");
