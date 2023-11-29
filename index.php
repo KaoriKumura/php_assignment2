@@ -43,10 +43,10 @@
                 <button class="signin" type="submit">Submit</button>
                 <h4>Already have an account?<a href="signin.php"> Log in!</a></h3>
             </form>
+        </div>
             <div class="comment">
                 <h1>Build your future in Canada with KUFS</h1>
             </div>
-        </div>
     </main>
     <?php
     require('./includes/footer.php');

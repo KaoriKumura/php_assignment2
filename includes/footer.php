@@ -1,7 +1,7 @@
 <div class="footer-basic">
     <footer>
-        <nav>
-            <ul class="list-inline">
+        <nav class="footer">
+            <ul class="footer">
                 <li class="list-inline-item"><a href="#">Home</a></li>
                 <li class="list-inline-item"><a href="#">Services</a></li>
                 <li class="list-inline-item"><a href="#">About</a></li>

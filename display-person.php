@@ -10,8 +10,8 @@ if (!isset($_SESSION['id'])) {
     require 'database.php';
 
     // Fetch the first name and role of the logged-in user
-    $userId = $_SESSION['id'];
-    $sql = "SELECT fname, role FROM student_tb WHERE id = $userId";
+    $id = $_SESSION['id'];
+    $sql = "SELECT fname, role FROM student_tb WHERE id = $id";
     $result = mysqli_query($conn, $sql);
     $row = mysqli_fetch_assoc($result);
     $fname = $row['fname'];
@@ -19,7 +19,7 @@ if (!isset($_SESSION['id'])) {
 
     if ($role == 'admin') {
         echo '<section class="person-row">';
-        echo '<div class="container">Hi, ' . $fname . '!<br>You are in admin page now</div>';
+        echo '<div class="container">Hi, ' . $fname . '!<br>Your ID is ' . $id . '<br>You are in admin page now</div>';
         echo '<table class="display">
                 <tr>
                     <th>ID</th>
@@ -67,7 +67,7 @@ if (!isset($_SESSION['id'])) {
                     <th>Actions</th>
                 </tr>';
 
-        $sql = "SELECT * FROM student_tb WHERE id = $userId";
+        $sql = "SELECT * FROM student_tb WHERE id = $id";
         $result = mysqli_query($conn, $sql);
 
         foreach ($result as $row) {

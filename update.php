@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["id"])) {
 
         if (!in_array($imageExtension, $validImageExtension)) {
             echo '<script>alert("Invalid Image Extension") </script>';
-        } else if ($fileSize > 1000000) {
+        } else if ($fileSize > 10000000) {
             echo '<script>alert("Image Size is too large") </script>';
         } else {
             $newImageName = uniqid();

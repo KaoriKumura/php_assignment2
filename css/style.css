@@ -28,15 +28,16 @@ body {
 }
 
 img.logo {
-  width: 500px;
-  cursor: pointer;
+  width: 430px;
+  background: #fff;
+  float: right;
+  padding-left: 50px;
 }
 
-nav ul {
-  list-style: none;
-  width: 100%;
-  text-align: right;
-  padding-left: 60px;
+nav ul.menubar {
+  background: #fff;
+  text-align: center;
+  padding-left: 23%;
 }
 
 nav ul li {
@@ -65,32 +66,39 @@ h3 {
 }
 
 div.comment>h1 {
-  color: #3c3836bd;
-  padding-left: 150px;
-  font-size: 60px;
-  padding-top: 20%;
+  color:#fff ;
+  padding-left: 29%;
+  font-size: 54px;
+  padding-top: 2%;
 }
 
 div.comment2>h1 {
-  color: #3c3836bd;
-  padding-left: 80px;
-  padding-top: 20%;
-  font-size: 60px;
+  color:#fff ;
+  padding-left: 37%;
+  font-size: 54px;
+  padding-bottom: 22%;
 }
 
 form {
   background-color: #fff5;
   backdrop-filter: blur(9px);
   box-shadow: 0.4rem .8rem #0005;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   overflow: hidden;
   text-align: center;
-  margin-top: 50px;
-  margin-left: 20%;
-  margin-bottom: 15%;
-  width: 40%;
-  font-size: 20px;
-  font-weight: 200;
+  margin-left: 51%;
+  width: 120%;
+}
+
+form.signin {
+  background-color: #fff5;
+  backdrop-filter: blur(9px);
+  box-shadow: 0.4rem .8rem #0005;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 100%;
+  width: 120%;
 }
 
 .info {
@@ -110,8 +118,7 @@ input.file {
 .footer-basic {
   width: 100%;
   bottom: 0;
-  color: #ffff;
-  /* background-color: white; */
+  padding-top: 50px;
 }
 
 .footer-basic ul {
@@ -124,6 +131,7 @@ input.file {
 
 .footer-basic li {
   padding: 0 10px;
+  color: #fff;
 }
 
 .footer-basic ul a {
@@ -188,15 +196,6 @@ tr:nth-child(odd) {
   background-color: rgba(231, 227, 227, 0.815);
 }
 
-main.form {
-  width: 350px;
-  box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
-  background: #fff;
-  padding: 20px;
-  margin: 8% auto 8%;
-  text-align: center;
-}
-
 input {
   border-radius: 20px;
   padding: 8px;
@@ -248,10 +247,6 @@ h3 {
   font-size: 30px;
 }
 
-.myForm {
-  display: flex;
-}
-
 body.admin {
   min-height: 100vh;
   background-size: 100%;
@@ -264,10 +259,11 @@ section.person-row {
   box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
   background: #fff;
   padding: 10px;
-  margin: 3% 9%;
+  margin: 6% 10%;
   text-align: center;
   background-color: #fff5;
   backdrop-filter: blur(5px);
+  border-radius: 2%;
 }
 
 section.person-row2 {
@@ -275,10 +271,14 @@ section.person-row2 {
   background: #fff;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin: 3% 9%;
+  margin-top: 10%;
+  margin-bottom: 6%;
+  margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
   background-color: #fff5;
   backdrop-filter: blur(5px);
+  border-radius: 2%;
 }
 
 form.admin {
@@ -288,9 +288,8 @@ form.admin {
   border-radius: .8rem;
   overflow: hidden;
   text-align: center;
-  margin-top: 50px;
-  margin-left: 40%;
-  margin-bottom: 13%;
+  margin-top: 90px;
+  margin-left: 37%;
   width: 20%;
   font-size: 20px;
   font-weight: 200;
@@ -300,14 +299,8 @@ label {
   color: #fff;
 }
 
-ul.contact {
-  background: rgb(9, 10, 10);
-  color: #fff;
-}
-
 p {
   padding: 15px;
-
 }
 
 img.contact {
@@ -341,4 +334,14 @@ button.viewpoint2{
   width: 70px;
   background: rgba(238, 151, 165, 0.619);
   margin: 5px;
+}
+
+main.index {
+	display: flex;
+  margin-top: 5%;
+}
+
+main.signinindex {
+	display: flex;
+  margin-top: 10%;
 }

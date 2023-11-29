@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 }
 ?>
 
-<?php require('./includes/header.php'); ?>
+<?php require('./includes/headeradmin.php'); ?>
 <link rel="stylesheet" href="css/style.css">
 <body class="admin">
   <main>
